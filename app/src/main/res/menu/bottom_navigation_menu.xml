@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/home_icon"
+        android:title="Главная"
+        />
+    <item
+        android:id="@+id/ads"
+        android:enabled="true"
+        android:icon="@drawable/ads_icon"
+        android:title="Объявления"/>
+    <item
+        android:id="@+id/location"
+        android:enabled="true"
+        android:icon="@drawable/location_icon"
+        android:title="Локация">
+    </item>
+
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/profile_icon"
+        android:title="Профиль">
+    </item>
+</menu>

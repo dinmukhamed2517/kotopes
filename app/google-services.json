@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "742371981607",
+    "firebase_url": "https://kotopesoff-951df-default-rtdb.firebaseio.com",
+    "project_id": "kotopesoff-951df",
+    "storage_bucket": "kotopesoff-951df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742371981607:android:e88df709d43550cf479102",
+        "android_client_info": {
+          "package_name": "kz.sd.kotopes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-OjNVGyELQo3i808lkxSnC3B0gcZw0pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
