@@ -42,6 +42,9 @@ class ProfileFragment:BaseFragment<FragmentProfileBinding>(FragmentProfileBindin
         binding.settingBtn.setOnClickListener {
             findNavController().navigate(R.id.action_profile_to_settingsFragment)
         }
+        binding.paymentBtn.setOnClickListener {
+            findNavController().navigate(R.id.action_profile_to_paymentFragment)
+        }
         binding.favoriteRecycler.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         binding.favoriteRecycler.adapter = adapter
         userDao.getDataLiveData.observe(this){

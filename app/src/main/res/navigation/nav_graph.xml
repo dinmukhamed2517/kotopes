@@ -37,6 +37,9 @@
         <action
             android:id="@+id/action_profile_to_animalDetailsFragment"
             app:destination="@id/animalDetailsFragment" />
+        <action
+            android:id="@+id/action_profile_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -77,4 +80,8 @@
         android:id="@+id/addFragment"
         android:name="kz.sd.kotopes.fragments.AddFragment"
         android:label="AddFragment" />
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="kz.sd.kotopes.fragments.PaymentFragment"
+        android:label="PaymentFragment" />
 </navigation>
