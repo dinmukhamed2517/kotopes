@@ -5,5 +5,7 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Kotopes" parent="Base.Theme.Kotopes" />
+    <style name="Theme.Kotopes" parent="Base.Theme.Kotopes" >
+        <item name="colorPrimary">@color/black</item>
+    </style>
 </resources>

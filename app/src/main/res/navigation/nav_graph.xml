@@ -71,7 +71,11 @@
     <fragment
         android:id="@+id/location"
         android:name="kz.sd.kotopes.fragments.MapFragment"
-        android:label="MapFragment" />
+        android:label="MapFragment" >
+        <action
+            android:id="@+id/action_location_to_mapBottomSheetFragment"
+            app:destination="@id/mapBottomSheetFragment" />
+    </fragment>
     <fragment
         android:id="@+id/settingsFragment"
         android:name="kz.sd.kotopes.fragments.SettingsFragment"
@@ -84,4 +88,12 @@
         android:id="@+id/paymentFragment"
         android:name="kz.sd.kotopes.fragments.PaymentFragment"
         android:label="PaymentFragment" />
+    <dialog
+        android:id="@+id/mapBottomSheetFragment"
+        android:name="kz.sd.kotopes.fragments.MapBottomSheetFragment"
+        android:label="MapBottomSheetFragment" >
+        <argument
+            android:name="location"
+            app:argType="kz.sd.kotopes.firebase.Location" />
+    </dialog>
 </navigation>
